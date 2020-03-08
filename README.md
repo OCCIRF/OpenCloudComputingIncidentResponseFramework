@@ -8,12 +8,15 @@ some examples how to implement given tasks in the cloud. The framework is divide
 2. handling
 3. post-processing
 
+As nowadays more organisations are not only cloud service custeomers but also cloud service providers the framework is 
+dividing the process at some places in those two parts if there are differences.
+
 
 ## Content
-Index | Description
------ | ------------
-[examples](examples) | Examples of possible implementations
-[templates](templates) | Templates for the process documents
+|Index | Description |
+|----- | ----------- |
+|[examples](examples) | Examples of possible implementations|
+|[templates](templates) | Templates for the process documents|
 
 
 ## Authors
