@@ -4,19 +4,20 @@ incidents in a cloud environment. This framework not written for a specific clou
 is a more generic framework.  
 This framework is more focused on the process of the incident response. In the [examples](examples) folder you can find 
 some examples how to implement given tasks in the cloud. The framework is divided in three main parts:
-1. preparation
-2. handling
-3. post-processing
+1. [Preparation](preparation)
+2. Handling
+3. Post-processing
 
-As nowadays more organisations are not only cloud service custeomers but also cloud service providers the framework is 
+As nowadays more organisations are not only cloud service customers but also cloud service providers the framework is 
 dividing the process at some places in those two parts if there are differences.
 
 
 ## Content
-|Index | Description |
-|----- | ----------- |
-|[examples](examples) | Examples of possible implementations|
-|[templates](templates) | Templates for the process documents|
+
+| Index | Description |
+| ----- | ----------- |
+| [examples](examples) | Examples of possible implementations |
+| [templates](templates) | Templates for the process documents |
 
 
 ## Authors
