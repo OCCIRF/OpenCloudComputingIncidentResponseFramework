@@ -5,7 +5,9 @@ Next review: *State next review*
 Description: *Describe shortly what the purpose of this asset is*  
 Owner: *Who is the asset owner and what are his contact details*  
 Emergency contact: *Who is the emergency contact*  
-Risk level: *What is the risk level of this asset (e.g. data criticality or business impact)* 
+Risk level: *What is the risk level of this asset (e.g. data criticality or business impact)*  
+Provider:  
+Provider contact:  
 
 ## Technical Facts
 |  | ......................................................... |

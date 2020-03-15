@@ -22,7 +22,7 @@ all facts sheets are up to date a periodic review should be done.
 ## Roles and responsibilities
 Defined responsibilities are important in an incident process as all involved persons need to know what they need to do.
 The employees within the set responsibilities should be skilled to handle those in a pressure situation like an incident
-event.
+event. The roles and responsibilities should also be documented. An example document can be found [here](../templates/rolesAndResponsibilities.md).
 
 ### Incident Response Team
 #### On-call team
@@ -51,7 +51,7 @@ employees.
 #### Trainers
 It is very important to train the different departments regarding incident response and general security. If there is no
 ongoing incident the team members of the incident response team should train the colleagues to improve the security
-knowledge.
+knowledge. The trainers are not relevant for an incident, but they are helping a lot to prevent those.
 
 ### Other internal departments
 #### Legal Manager
@@ -61,12 +61,16 @@ incident response team in legal questions.Moreover, he needs also help the team 
 department for data protection in the organisation.
 
 #### IT operations
-
-
+Normally the IT operations are responsible for the deployed solutions. In an incident case they have the most knowledge
+about their infrastructure. The incident response team should be able to get in touch with those operation teams if they
+can help resolve the incident. Those contacts need to be stated in the asset facts sheet, so a contact person is always
+known. (@TODO: Azure list security contacts)
 
 ### Providers
-
-#### Point of contact
+As all cloud solutions are based on a provider it is important to have a direct line of contact to them. For that case a
+single point of contact is important. This contact is always reachable and can support the incident response operations.
+The single point of contact can be a support team or the Security Operations Center (SOC). This point of contacts should
+be regularly reviewed and tested.
 
 ### Customers
 
