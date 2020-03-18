@@ -13,16 +13,18 @@ management contains all relevant assets which might be helpful in an incident ca
   - Processed data
 - ***@TODO: More needed***
 
-Those fact sheets can be stored in an asset management tool or a simple database (See [examples/assetManagement](../examples/assetManagement.md)). 
-Also, an offline version is possible as in an incident case it is not guaranteed that the online asset management tools
-are accessible (See [templates/assetFactsSheet](../templates/assetFactsSheet.md)).  
+Those fact sheets can be stored in an asset management tool or a simple database (See
+[examples/assetManagement](../examples/assetManagement.md)). Also, an offline version is possible as in an incident case
+it is not guaranteed that the online asset management tools are accessible (See
+[templates/assetFactsSheet](../templates/assetFactsSheet.md)).  
 The more precisely the facts sheets are the easier it is to get all needed assets in an incident case. To assure that
 all facts sheets are up to date a periodic review should be done.
    
 ## Roles and responsibilities
 Defined responsibilities are important in an incident process as all involved persons need to know what they need to do.
 The employees within the set responsibilities should be skilled to handle those in a pressure situation like an incident
-event. The roles and responsibilities should also be documented. An example document can be found [here](../templates/rolesAndResponsibilities.md).
+event. The roles and responsibilities should also be documented. An example document can be found
+[here](../templates/rolesAndResponsibilities.md).
 
 ### Incident Response Team
 #### On-call team
@@ -43,10 +45,10 @@ upper management.
 
 #### Communication Manager
 The communication manager is handling all sorts of communication to other parties who are involved in the incident. He
-writes press releases or notifications to customers if they are affected. Also, an important communication partner are the
-law enforcements as legal responsibilities are needed to be followed (Like GDPR or KRITIS in Germany). He is responsible
-for internal communications, too. E.g. communicating the comments on the incident and the affected systems to the internal
-employees.
+writes press releases or notifications to customers if they are affected. Also, an important communication partner are
+the law enforcements as legal responsibilities are needed to be followed (Like GDPR or KRITIS in Germany). He is
+responsible for internal communications, too. E.g. communicating the comments on the incident and the affected systems
+to the internal employees.
 
 #### Trainers
 It is very important to train the different departments regarding incident response and general security. If there is no
@@ -55,10 +57,10 @@ knowledge. The trainers are not relevant for an incident, but they are helping a
 
 ### Other internal departments
 #### Legal Manager
-The legal manager is responsible for legal questions for the incident. He as to provide contact details to authorities to
-the communication manager or work with him together on statements for them. He can also consult the management, or the
-incident response team in legal questions.Moreover, he needs also help the team in GDPR topics if there is no dedicated
-department for data protection in the organisation.
+The legal manager is responsible for legal questions for the incident. He as to provide contact details to authorities
+to the communication manager or work with him together on statements for them. He can also consult the management, or
+the incident response team in legal questions.Moreover, he needs also help the team in GDPR topics if there is no
+dedicated department for data protection in the organisation.
 
 #### IT operations
 Normally the IT operations are responsible for the deployed solutions. In an incident case they have the most knowledge
@@ -73,12 +75,22 @@ The single point of contact can be a support team or the Security Operations Cen
 be regularly reviewed and tested.
 
 ### Customers
-
-#### Point of contact
+It is also important to notify the customers in case of an incident where the data of those customers are affected. This
+needs also be planned accordingly to be satisfy legal requirements and corporate policies. A list of customers should be
+easily accessible to inform potential affected customers.
 
 ## Access concept
 The access concept for incident response is an interesting topic. Here it is important to guarantee quick reaction times
-but also honor the least privileges principle. 
+but also honor the least privileges principle. Here the CIRT needs to balance the least privileges concept and the
+possibility to quickly access any affected systems.  
+While normal operating the CIRT needs access to the project accounts/subscriptions only as read-only. Read-only access
+is necessary to get log data or metrics to a central log environment. ***@TODO: Add link to log preparation***  
+![Normal access to a subscription / account](accessConceptDefault.png)
+
+When an incident is occurring in the environment the incident response team needs to access the environment quickly to
+contain the incident. As the CIRT cannot have full access to all environment at all time a 3rd party needs to grant the
+elevated access. ***@TODO: Add more here***  
+![Emergency access to a subscription / account](accessConceptIncident.png)
 
 ## Communication
 
