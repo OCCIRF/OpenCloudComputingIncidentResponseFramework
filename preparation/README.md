@@ -1,6 +1,9 @@
 # Incident preparation
 The preparation is an integral part of the incident response process. Here you need to plan and prepare your strategy
-and your tools. 
+and your tools.
+
+{:toc}
+
 ## Asset management
 To properly react to an incident in the own environment an asset management needs to be established. The asset
 management contains all relevant assets which might be helpful in an incident case. Those assets are (not all):
@@ -82,14 +85,37 @@ easily accessible to inform potential affected customers.
 ## Access concept
 The access concept for incident response is an interesting topic. Here it is important to guarantee quick reaction times
 but also honor the least privileges principle. Here the CIRT needs to balance the least privileges concept and the
-possibility to quickly access any affected systems.  
-While normal operating the CIRT needs access to the project accounts/subscriptions only as read-only. Read-only access
-is necessary to get log data or metrics to a central log environment. ***@TODO: Add link to log preparation***  
+possibility to quickly access any affected systems.
+
+### Normal access
+While normal operating the CIRT needs access to the project accounts/subscriptions only as read-only users. Read-only
+access is necessary to get log data or metrics to a central log environment. The best way to guarantee the read-only
+access is to force this via an identity management system (Like the Azure AD or AWSs IAM). This identity management
+system forces the CIRT group into all corporate subscriptions/accounts. ***@TODO: Add link to log preparation***  
 ![Normal access to a subscription / account](accessConceptDefault.png)
 
+### Emergency access
 When an incident is occurring in the environment the incident response team needs to access the environment quickly to
 contain the incident. As the CIRT cannot have full access to all environment at all time a 3rd party needs to grant the
-elevated access. ***@TODO: Add more here***  
+elevated access. This 3rd party as a trusted source helps to guarantee a four-eyes principle and that the principle of
+least privileges his honoured. A workflow for this access could look like following:
+1. The CIRT team members requests the privileges at the trusted party
+2. This trusted party logs into the IdM system and grants the specific users full access to the requested environment
+3. The CIRT team members can now authenticate with their normal users at the IdM to get the higher privileges
+4. The team has full access into the infected environment
+
+There are different possibilities to define the role of the trusted party to grant the CIRT members access to the
+infected environment. The first possibility is that the contact is an admin from the IdM admin team which is also
+on-call. The second option is that a manager on duty or someone from the operations team for this environment can handle
+those access rights and give them to the team. A third and possible fasted way to handle the emergency access is a
+breaking-glass account which is handled by the manager on duty of the CIRT. A breaking-glass account is an account which
+is only there for emergency access and is able to delegate specific access roles to a set of users. In this scenario the
+incident handler is requesting access from his manager. The manager then uses this special account in the identity
+manager to grant the incident handler access to the subscription. All those administrative actions have to be of course
+be logged and alerted. Also, a timeline needs to be specified for the validity of the accounts. So they can be removed
+when they are no longer needed.
+A template for the emergency access can be found [here](../templates/emergencyAccess.md).  
+
 ![Emergency access to a subscription / account](accessConceptIncident.png)
 
 ## Communication
