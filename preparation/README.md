@@ -84,47 +84,64 @@ easily accessible to inform potential affected customers.
 
 ## Access concept
 The access concept for incident response is an interesting topic. Here it is important to guarantee quick reaction times
-but also honor the least privileges principle. Here the CIRT needs to balance the least privileges concept and the
+but also honor the least privileges principle. Here the CSIRT needs to balance the least privileges concept and the
 possibility to quickly access any affected systems.
 
 ### Normal access
-While normal operating the CIRT needs access to the project accounts/subscriptions only as read-only users. Read-only
+While normal operating the CSIRT needs access to the project accounts/subscriptions only as read-only users. Read-only
 access is necessary to get log data or metrics to a central log environment. The best way to guarantee the read-only
 access is to force this via an identity management system (Like the Azure AD or AWSs IAM). This identity management
-system forces the CIRT group into all corporate subscriptions/accounts. ***@TODO: Add link to log preparation***  
+system forces the CSIRT group into all corporate subscriptions/accounts. ***@TODO: Add link to log preparation***
+
 ![Normal access to a subscription / account](accessConceptDefault.png)
 
 ### Emergency access
 When an incident is occurring in the environment the incident response team needs to access the environment quickly to
-contain the incident. As the CIRT cannot have full access to all environment at all time a 3rd party needs to grant the
+contain the incident. As the CSIRT cannot have full access to all environment at all time a 3rd party needs to grant the
 elevated access. This 3rd party as a trusted source helps to guarantee a four-eyes principle and that the principle of
 least privileges his honoured. A workflow for this access could look like following:
-1. The CIRT team members requests the privileges at the trusted party
+1. The CSIRT team members requests the privileges at the trusted party
 2. This trusted party logs into the IdM system and grants the specific users full access to the requested environment
-3. The CIRT team members can now authenticate with their normal users at the IdM to get the higher privileges
+3. The CSIRT team members can now authenticate with their normal users at the IdM to get the higher privileges
 4. The team has full access into the infected environment
 
-There are different possibilities to define the role of the trusted party to grant the CIRT members access to the
+There are different possibilities to define the role of the trusted party to grant the CSIRT members access to the
 infected environment. The first possibility is that the contact is an admin from the IdM admin team which is also
 on-call. The second option is that a manager on duty or someone from the operations team for this environment can handle
 those access rights and give them to the team. A third and possible fasted way to handle the emergency access is a
-breaking-glass account which is handled by the manager on duty of the CIRT. A breaking-glass account is an account which
-is only there for emergency access and is able to delegate specific access roles to a set of users. In this scenario the
-incident handler is requesting access from his manager. The manager then uses this special account in the identity
-manager to grant the incident handler access to the subscription. All those administrative actions have to be of course
-be logged and alerted. Also, a timeline needs to be specified for the validity of the accounts. So they can be removed
-when they are no longer needed.
-A template for the emergency access can be found [here](../templates/emergencyAccess.md).  
+breaking-glass account which is handled by the manager on duty of the CSIRT. A breaking-glass account is an account
+which is only there for emergency access and is able to delegate specific access roles to a set of users. In this
+scenario the incident handler is requesting access from his manager. The manager then uses this special account in the
+identity manager to grant the incident handler access to the subscription. All those administrative actions have to be
+of course be logged and alerted. Also, a timeline needs to be specified for the validity of the accounts. So they can be
+removed when they are no longer needed.
+A template for the emergency access can be found [here](../templates/emergencyAccess.md).
 
 ![Emergency access to a subscription / account](accessConceptIncident.png)
 
 ## Communication
+The communication of the incident is also very important. Especially when someone outside of the organisation has to be
+informed about an incident. The communication should always be done by the communication manager or a trained
+communication employee if possible. The communication is key for the reputation of the affected organisation. Also, it
+is important to communicate clear and through defined channels. Which is also in responsibility of the communication
+manager.  
+Communication examples can be found [here](../examples/communication.md).
 
 ### Communication to the cloud provider
+The communication to the cloud provider is needed when an incident is reported by the cloud provider or is also
+affecting their systems. Here a more technical communication should be preferred between both CSIRTs. The communication
+needs to be clarified when the shared responsibility is defined in the contracts. This can also be done in the UI of the
+Cloud providers like Azure does it with the security contacts.
 
 ### Internal communication
+Internal communication is important to inform the employees about incidents generally. When some employees are affected
+they also should be separately notified to guarantee the security of those employees. Also, when the incident is closed
+the whole company can be informed about that to lean what can be improved (lessons learned). If the CSIRT needs help
+from different teams a communication channel to those also needs to be established via the communications manager or
+directly via the line managers.
 
 ### Communication to customers
+
 
 ### Communication to law enforcements
 
@@ -137,6 +154,6 @@ See [examples](../examples)
 
 ### War game
 
-#### With CIRT notification
+#### With CSIRT notification
 
-#### Without CIRT notification
+#### Without CSIRT notification

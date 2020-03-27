@@ -10,12 +10,13 @@ Provider:
 Provider contact:  
 
 ## Technical Facts
+
 |  | ......................................................... |
 | ---------- | --------------------------------------------------------- |
 | IP(s):  | |
 | Url(s): | |
-| Parent asset | |
-| Child assets | |
+| Parent asset: | |
+| Child assets: | |
 |  | |
 
 ## Documentation

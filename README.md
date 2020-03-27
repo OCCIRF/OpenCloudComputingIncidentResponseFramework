@@ -19,6 +19,7 @@ dividing the process at some places in those two parts if there are differences.
 | [examples](examples) | Examples of possible implementations |
 | [templates](templates) | Templates for the process documents |
 
+## Annotations
 
 ## Authors
 
