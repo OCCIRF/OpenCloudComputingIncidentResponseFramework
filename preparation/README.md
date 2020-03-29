@@ -2,7 +2,34 @@
 The preparation is an integral part of the incident response process. Here you need to plan and prepare your strategy
 and your tools.
 
-{:toc}
+1. [Asset management](#asset-management)
+1. [Roles and responsibilities](#roles-and-responsibilities)
+   1. [Incident Response Team](#incident-response-team)
+      1. [On-call team](#on-call-team)
+      1. [Incident Investigators](#incident-investigators)
+      1. [Incident Manager](#incident-manager)
+      1. [Communication Manager](#communication-manager)
+      1. [Trainers](#trainers)
+   1. [Other internal departments](#other-internal-departments)
+      1. [Legal Manager](#legal-manager)
+      1. [IT operations](#it-operations)
+   1. [Providers](#providers)
+   1. [Customers](#customers)
+1. [Access concept](#access-concept)
+   1. [Normal access](#normal-access)
+   1. [Emergency access](#emergency-access)
+1. [Communication](#communication)
+   1. [Communication to the cloud provider](#communication-to-the-cloud-provider)
+   1. [Internal communication](#internal-communication)
+   1. [Communication to customers](#communication-to-customers)
+   1. [Communication to law enforcements](#communication-to-law-enforcements)
+1. [Process documentation](#process-documentation)
+1. [Governance](#governance)
+1. [Training](#training)
+   1. [War game](#war-game)
+      1. [With CSIRT notification](#with-csirt-notification)
+      1. [Without CSIRT notification](#without-csirt-notification)
+
 
 ## Asset management
 To properly react to an incident in the own environment an asset management needs to be established. The asset
@@ -124,7 +151,8 @@ The communication of the incident is also very important. Especially when someon
 informed about an incident. The communication should always be done by the communication manager or a trained
 communication employee if possible. The communication is key for the reputation of the affected organisation. Also, it
 is important to communicate clear and through defined channels. Which is also in responsibility of the communication
-manager.  
+manager.
+
 Communication examples can be found [here](../examples/communication.md).
 
 ### Communication to the cloud provider
@@ -141,9 +169,22 @@ from different teams a communication channel to those also needs to be establish
 directly via the line managers.
 
 ### Communication to customers
-
+The communication to customers is a sensitive topic. Here the customer needs to be informed what happened and if any of
+his data is affected. The communication is important to gain trust back from the customers that the organisation can
+handle the incident properly. Also, your publicity in the media is affected by that. A notification about an incident
+should be honest and clear for the customers. The fastest way to inform the customers about this incident can be through
+e-mail as most of the time the e-mail is known in a cloud solution. In the e-mail the incident should be explained
+transparently and should explain what happened in the environment. It should also explain what happened to the customer
+data. The e-mail should clarify everything and should not hide the real impact or the severity of the incident. The
+communication to the customer should be done by experts in this topic with help from the legal department. The CSIRT
+should only provide the technical details.  
+Examples for a communication to the customers can be found [here](../examples/communication.md#to-customers).
 
 ### Communication to law enforcements
+Communicating to law enforcements can be necessary if a local law enforces that. This can be for example the GDPR if
+personal related data is processed. Also, when the incident is reported to the police this communication is necessary.
+The communication should never be done by someone without knowledge of the respective laws. For this communication the
+legal department should be contacted that they can do this.
 
 ## Process documentation
 See [examples](../examples)
