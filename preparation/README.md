@@ -192,8 +192,30 @@ See [examples](../examples)
 ## Governance
 
 ## Training
+Training is important for all IT security professionals. Trainings are needed to keep up with the newest technologies
+and threats in the IT environments. Those trainings might be internal trainings or external trainings at e.g.
+conferences.
+
+### External trainings
+External trainings are trainings outside of the organisation where the IT security specialist can learn new technologies
+or increase his own knowledge in a specific topic. Those trainings are important as new technologies and threats are
+always rising in on the internet. Also, an employee whose responsibility is incident response needs to know which
+threats are important for his work and the company. For example the public cloud topics is something where the incident
+handlers need to be trained in as this topic is fairly new and changing rapidly.  
+The employees should have enough budget to attend important trainings. These trainings should be selected by the
+employee together with the line manager to guarantee an optimal fit for his position. When the employee is back from the
+training he can share his learned knowledge with his colleagues to enable the whole team with the newly learned.
 
 ### War game
+A war game is a strategic simulation of an event which is normally used by the military to train a case of emergency. In
+IT a war game is also a simulation of an event. This event can be a serious incident or any other event where training
+is necessary.  
+The war game for the incident response team should help the team train the handling of an incident and disclose possible
+opportunities for improvement. The actions of the response team should be documented and rated by a third party and
+discussed afterwards for optimal improvement (See [war game evaluation](../templates/warGameEvaluation.md)). A war
+game should be carefully planned with the responsible persons of the target environment and with the management of the
+CSIRT. For the war game a testing system for the target environment can be chosen. The generated events should be
+documented. A red/purple team can help simulate the attacker. This is then also a good practice for them.
 
 #### With CSIRT notification
 
