@@ -1,4 +1,4 @@
-# War game preparation template
+# Template: War Game Preparation 
 This template helps to plan and conduct a war game. All needed details for one can be documented in the template for
 further references.
 

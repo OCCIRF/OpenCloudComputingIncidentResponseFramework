@@ -1,4 +1,4 @@
-# Incident facts sheet
+# Template: Incident Facts Sheet
 
 ## General
 
