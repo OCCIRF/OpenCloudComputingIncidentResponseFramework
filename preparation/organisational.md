@@ -23,12 +23,16 @@ and your tools. In this chapter the focus is on the organisational preparation.
    1. [Internal communication](#internal-communication)
    1. [Communication to customers](#communication-to-customers)
    1. [Communication to law enforcements](#communication-to-law-enforcements)
+   1. [Communication to other Incident Response Organisations](#communication-to-other-incident-response-organisations)
 1. [Process documentation](#process-documentation)
 1. [Governance](#governance)
 1. [Training](#training)
+   1. [External trainings](#external-trainings)
+   1. [Internal training](#internal-training)
    1. [War game](#war-game)
       1. [With CSIRT notification](#with-csirt-notification)
       1. [Without CSIRT notification](#without-csirt-notification)
+
 
 
 ## Asset management
@@ -217,6 +221,10 @@ employee together with the line manager to guarantee an optimal fit for his posi
 training he can share his learned knowledge with his colleagues to enable the whole team with the newly learned.
 
 ### Internal training
+Internal training helps to distribute knowledge from one employee to another. This can be something this employee
+learned on the job or while on an external training. A knowledge base like an internal wiki can be helpful to document 
+the knowledge. The NIST has also developed a framework to help corporations training their employees. This framework is
+called [National Initiative for Cybersecurity Education (NICE)](https://www.nist.gov/itl/applied-cybersecurity/nice). 
 
 ### War game
 A war game is a strategic simulation of an event which is normally used by the military to train a case of emergency. In
@@ -228,8 +236,24 @@ discussed afterwards for optimal improvement (See [war game evaluation](../templ
 game should be carefully planned with the responsible persons of the target environment and with the management of the
 CSIRT. For the war game a testing system for the target environment can be chosen. The generated events should be
 documented (See [war game preparation plan](../templates/warGamePreparation.md)). A red/purple team can help simulate
-the attacker. This is then also a good practice for them.
+the attacker. This is then also a good practice for them. To track the actions the red/purple team has made the attack
+should be documented. This can be then compared to the analysis of the CSIRT.  
+If a red/purple team is not available events can be generated manually in most of the cloud environments or
+applications.  
+In addition to the templates there are also some examples [available](../examples/warGame.md).
 
 #### With CSIRT notification
+The easier version of a war game is the version where the CSIRT is notified about the war game. Within this scenario the
+processes can be tested without pressure of a real live situation. This scenario is also great to train new employees
+and show them how the incident process works. The drawback of this scenario is that the CSIRT knows that this is a
+training and they might not take this as seriously as a real incident. 
 
 #### Without CSIRT notification
+The war game without notifying the CSIRT is more close to the reality than the scenario with the notification. Here the
+CSIRT has to handle the incident as it is a real one without help of the team which has started the war game. This
+scenario can give a better view on how the team handles incidents and where optimisation is needed. Furthermore, this
+scenario gives also an indication how fast the CSIRT can response to an incident and how well prepared they are. The
+drawback of this scenario is that the CSIRT is bound to this incident and might not be able to respond to a real
+incident. For this situation a fallback plan has to be implemented in which the management of the CSIRT is informed
+about the war game. If then a real incident happens the CSIRT can shift the priority to the real on and leave the war
+game as it is.
