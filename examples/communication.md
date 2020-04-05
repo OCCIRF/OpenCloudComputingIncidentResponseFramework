@@ -28,6 +28,7 @@
 > Best regards,
 >
 > [management]
+
 ### Example with direct user impact
 > Dear [user],
 >
