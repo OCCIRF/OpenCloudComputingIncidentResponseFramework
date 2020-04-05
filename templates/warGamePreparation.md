@@ -6,7 +6,7 @@ further references.
 > # War game: [name]
 > ## General
 >
-> |                              |                          |
+> | Name                         | Details                  |
 > |------------------------------|--------------------------|
 > | Date:                        | [date]                   |
 > | Type:                        | [ ] with Notification    |
@@ -23,7 +23,7 @@ further references.
 >
 > ## Technical details
 >
-> |                              |                          |
+> | Name                         | Details                  |
 > |------------------------------|--------------------------|
 > | Initial attack vector:       | [attack vector]          |
 > | IPs / FQDNs                  | [IP / FQDN list]         |
@@ -45,7 +45,7 @@ further references.
 > # War game: Azure Portal credential theft
 > ## General
 >
-> |                              |                          |
+> | Name                         | Details                  |
 > |------------------------------|--------------------------|
 > | Date:                        | 2020-02-02               |
 > | Type:                        | [ ] with Notification    |
@@ -62,7 +62,7 @@ further references.
 >
 > ## Technical details
 >
-> |                              |                          |
+> | Name                         | Details                  |
 > |------------------------------|--------------------------|
 > | Initial attack vector:       | Credential theft         |
 > | IPs / FQDNs                  | portal.azure.com         |
