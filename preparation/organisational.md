@@ -33,11 +33,10 @@ and your tools. In this chapter the focus is on the organisational preparation.
       1. [With CSIRT notification](#with-csirt-notification)
       1. [Without CSIRT notification](#without-csirt-notification)
 
-
-
 ## Asset management
 To properly react to an incident in the own environment an asset management needs to be established. The asset
 management contains all relevant assets which might be helpful in an incident case. Those assets are (not all):
+
 - Accounts or Subscriptions (Public Cloud/SaaS)
 - Running services
   - IP addresses
@@ -131,6 +130,7 @@ When an incident is occurring in the environment the incident response team need
 contain the incident. As the CSIRT cannot have full access to all environment at all time a 3rd party needs to grant the
 elevated access. This 3rd party as a trusted source helps to guarantee a four-eyes principle and that the principle of
 least privileges his honoured. A workflow for this access could look like following:
+
 1. The CSIRT team members requests the privileges at the trusted party
 2. This trusted party logs into the IdM system and grants the specific users full access to the requested environment
 3. The CSIRT team members can now authenticate with their normal users at the IdM to get the higher privileges
@@ -203,7 +203,26 @@ documentation is important as this document guides the team through the process.
 organisation and the departments, which are part of the incident response process.  
 A process example can be found [here](../examples/process.md).
 
-## Governance
+## Governance and Policies
+Governance and policies are the pillar for a well planned incident response process. The policies are defining on a high
+level how this process is built and who is responsible for the different parts. The policies apply corporation wide and
+are most likely binding for all employees. The governance department is defining the polices. In the case of the
+incident response process the policies should define following terms:
+
+- Scope of the policy
+- Definition of IT security incidents
+- Mission of the CSIRT
+- Tasks of the project teams (e.g. contacts, on-call service, reporting)
+- General reporting
+- Communication guidelines and plans
+- Escalation processes
+- Prioritization and ratings of incidents
+
+The policies should be on a high level to leave some room for the project to adapt the policies. The policies could be
+derived from the ISO 27001 standard (e.g.
+[ISO 27001 - Annex A.16](https://www.isms.online/iso-27001/annex-a-16-information-security-incident-management/)).
+
+***@ToDO: add example policies: e.g. rating, reporting***
 
 ## Training
 Training is important for all IT security professionals. Trainings are needed to keep up with the newest technologies
@@ -222,7 +241,7 @@ training he can share his learned knowledge with his colleagues to enable the wh
 
 ### Internal training
 Internal training helps to distribute knowledge from one employee to another. This can be something this employee
-learned on the job or while on an external training. A knowledge base like an internal wiki can be helpful to document 
+learned on the job or while on an external training. A knowledge base like an internal wiki can be helpful to document
 the knowledge. The NIST has also developed a framework to help corporations training their employees. This framework is
 called [National Initiative for Cybersecurity Education (NICE)](https://www.nist.gov/itl/applied-cybersecurity/nice). 
 
