@@ -7,7 +7,7 @@ This example contains a process for an incident. This example is based on the IT
    1. [Classification of an Event](#classification-of-an-event)
    1. [Incident Classification and Escalation](#incident-classification-and-escalation)
    1. [Triage and Notifications](#triage-and-notifications)
-   1. [Containment](#containment)
+   1. [Containment and Recovery](#containment-and-recovery)
    1. [Root Cause Analysis and Finalization](#root-cause-analysis-and-finalization)
 
 ## Full Process Workflow
