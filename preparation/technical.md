@@ -3,8 +3,9 @@
 
 {ToC}
 
+## Log preparation
 
-## Log aggregation
+### Log aggregation
 
 ## Monitoring
 
