@@ -13,7 +13,7 @@ This example contains a process for an incident. This example is based on the IT
 ## Full Process Workflow
 ![Process workflow](pictures/processFlow.png)
 
-The Visio file can be downloaded [here](processFlow.vsdx)
+The Visio file can be downloaded [here](visio/processFlow.vsdx)
 ## Parts of the Process
 
 ### Ingest of an Event
