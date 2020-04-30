@@ -7,8 +7,12 @@
 
 ### Log aggregation
 
+### Log sharing
+
 ## Monitoring
 
 ## Visibility
 
 ## Response tool chain
+
+## Data extraction concept
