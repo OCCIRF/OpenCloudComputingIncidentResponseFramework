@@ -8,5 +8,5 @@ Following templates are available:
 1. [Template: Preparation Checklist](preparationChecklist.md)
 1. [responseChecklist.md](responseChecklist.md)
 1. [Template: Roles and Responsibilities](rolesAndResponsibilities.md)
-1. [warGameEvaluation.md](warGameEvaluation.md)
+1. [Template: War Game Evaluation](warGameEvaluation.md)
 1. [Template: War Game Preparation](warGamePreparation.md)

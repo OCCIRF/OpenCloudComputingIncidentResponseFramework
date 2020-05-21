@@ -78,7 +78,7 @@ further references.
 >
 > | Time                         | Details                  |
 > |------------------------------|--------------------------|
-> | 2020-02-02 9:00CEST          | Login from unknown IP    |
-> | 2020-02-02 9:05CEST          | Starting some VMs        |
-> | 2020-02-02 9:30CEST          | Downloading DB backups   |
-> | 2020-02-02 9:45CEST          | Account got locked       |
+> | 2020-02-02 09:00CEST         | Login from unknown IP    |
+> | 2020-02-02 09:05CEST         | Starting some VMs        |
+> | 2020-02-02 09:30CEST         | Downloading DB backups   |
+> | 2020-02-02 09:45CEST         | Account got locked       |

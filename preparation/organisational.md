@@ -25,7 +25,7 @@ and your tools. In this chapter the focus is on the organisational preparation.
    1. [Communication to law enforcements](#communication-to-law-enforcements)
    1. [Communication to other Incident Response Organisations](#communication-to-other-incident-response-organisations)
 1. [Process documentation](#process-documentation)
-1. [Governance](#governance)
+1. [Governance and Policies](#governance-and-policies)
 1. [Training](#training)
    1. [External trainings](#external-trainings)
    1. [Internal training](#internal-training)
@@ -222,7 +222,7 @@ The policies should be on a high level to leave some room for the project to ada
 derived from the ISO 27001 standard (e.g.
 [ISO 27001 - Annex A.16](https://www.isms.online/iso-27001/annex-a-16-information-security-incident-management/)).
 
-***@ToDO: add example policies: e.g. rating, reporting***
+***ToDo: add example policies: e.g. rating, reporting***
 
 ## Training
 Training is important for all IT security professionals. Trainings are needed to keep up with the newest technologies
