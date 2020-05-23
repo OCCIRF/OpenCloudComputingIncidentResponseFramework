@@ -2,39 +2,41 @@
 This template helps to evaluate a conducted war game. This can then be used to document and further optimize activities.
 
 ## Template
-> # War game: [name]
-> Overall performance: [ ] 1 | [ ] 2 | [ ] 3 | [ ] 4 | [ ] 5
->
-> ## Evaluation
->
-> | Name                         | Details                  |
-> |------------------------------|--------------------------|
-> | Resolved:                    | [ ] Yes, [ ] No, 1)      |
-> | Time to resolution:          | [time]                   |
-> | CSIRT Feedback:              | [ ] Yes, 2)              |
-> | Project Team Feedback:       | [ ] Yes, 3)              |
-> | Judge feedback:              | [ ] Yes, 4)              |
-> | Lessons learned:             | [ ] Yes, 5)              |
->
-> ## Response tracker
->
-> | Time                         | Details                  |
-> |------------------------------|--------------------------|
-> | [time]                       | First notification       |
-> | [time]                       | [next step]              |
->
-> ## Details
->
-> ### 1. Resolution:
->
-> ### 2. CSIRT Feedback:
->
-> ### 3. Project Team Feedback:
->
-> ### 4. Judge feedback:
->
-> ### 5. Lessons learned:
->
+```
+# War game: [name]
+Overall performance: [ ] 1 | [ ] 2 | [ ] 3 | [ ] 4 | [ ] 5
+
+## Evaluation
+
+| Name                         | Details                  |
+|------------------------------|--------------------------|
+| Resolved:                    | [ ] Yes, [ ] No, 1)      |
+| Time to resolution:          | [time]                   |
+| CSIRT Feedback:              | [ ] Yes, 2)              |
+| Project Team Feedback:       | [ ] Yes, 3)              |
+| Judge feedback:              | [ ] Yes, 4)              |
+| Lessons learned:             | [ ] Yes, 5)              |
+
+## Response tracker
+
+| Time                         | Details                  |
+|------------------------------|--------------------------|
+| [time]                       | First notification       |
+| [time]                       | [next step]              |
+
+## Details
+
+### 1. Resolution:
+
+### 2. CSIRT Feedback:
+
+### 3. Project Team Feedback:
+
+### 4. Judge feedback:
+
+### 5. Lessons learned:
+
+```
 
 ## Example
 > # War game: Azure Portal credential theft

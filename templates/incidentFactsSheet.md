@@ -2,54 +2,55 @@
 This template helps to document all available information about an ongoing incident. 
 
 ## Template
-> # Incident: [incidentName]
-> ## General
->
-> | Name                         | Details                  |
-> |------------------------------|--------------------------|
-> | Start:                       | [time]                   |
-> | Resolved:                    | [time]                   |
-> | Reporter contact:            | [reporter]               |
->
-> ## Status
->
-> | Name                         | Status                   |
-> |------------------------------|--------------------------|
-> | Event classified:            | [ ] Yes: [status]        |
-> | Incident classified:         | [ ] Yes: [status]        |
-> | Triage conducted:            | [ ] Yes: [status]        |
-> | Affected parties contacted:  | [ ] Yes: [status]        |
-> | Incident contained:          | [ ] Yes: [status]        |
-> | Systems recovered:           | [ ] Yes: [status]        |
-> | Root cause found :           | [ ] Yes: [status]        |
-> | Lessons learned conducted:   | [ ] Yes: [status]        |
-> | Documentation finished:      | [ ] Yes: [status]        |
->
-> ## Technical Details
->
-> | Name                         | Details                  |
-> |------------------------------|--------------------------|
-> | Impact:                      | [impactRating]           |
-> | Urgency:                     | [urgencyRating]          |
->
-> ### Affected Systems
->
-> ### Affected Parties
->
-> ### Root Cause
->
-> ### Lessons Learned
->
-> ### Documentation Link
->
->
-> ## Response Tracker
->
-> | Time                         | Details                  |
-> |------------------------------|--------------------------|
-> | [time]                       | [step]                   |
-> | [time]                       | [step]                   |
->
+```
+# Incident: [incidentName]
+## General
+
+| Name                         | Details                  |
+|------------------------------|--------------------------|
+| Start:                       | [time]                   |
+| Resolved:                    | [time]                   |
+| Reporter contact:            | [reporter]               |
+
+## Status
+
+| Name                         | Status                   |
+|------------------------------|--------------------------|
+| Event classified:            | [ ] Yes: [status]        |
+| Incident classified:         | [ ] Yes: [status]        |
+| Triage conducted:            | [ ] Yes: [status]        |
+| Affected parties contacted:  | [ ] Yes: [status]        |
+| Incident contained:          | [ ] Yes: [status]        |
+| Systems recovered:           | [ ] Yes: [status]        |
+| Root cause found :           | [ ] Yes: [status]        |
+| Lessons learned conducted:   | [ ] Yes: [status]        |
+| Documentation finished:      | [ ] Yes: [status]        |
+
+ ## Technical Details
+
+| Name                         | Details                  |
+|------------------------------|--------------------------|
+| Impact:                      | [impactRating]           |
+| Urgency:                     | [urgencyRating]          |
+
+### Affected Systems
+
+### Affected Parties
+
+### Root Cause
+
+### Lessons Learned
+
+### Documentation Link
+
+
+## Response Tracker
+
+| Time                         | Details                  |
+|------------------------------|--------------------------|
+| [time]                       | [step]                   |
+| [time]                       | [step]                   |
+```
 
 ## Example
 > # Incident: Possible Azure credential theft

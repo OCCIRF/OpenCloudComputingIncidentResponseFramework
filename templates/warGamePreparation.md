@@ -3,44 +3,45 @@ This template helps to plan and conduct a war game. All needed details for one c
 further references.
 
 ## Template
-> # War game: [name]
-> ## General
->
-> | Name                         | Details                  |
-> |------------------------------|--------------------------|
-> | Date:                        | [date]                   |
-> | Type:                        | [ ] with Notification    |
-> |                              | [ ] without Notification |
-> | CSIRT management contact:    | [name]                   |
-> |                              | [email]                  |
-> | CSIRT management approval:   | [ ] Yes: [date]          |
-> | Project name                 | [project name]           |
-> | Project management contact:  | [name]                   |
-> |                              | [email]                  |
-> | Project management approval: | [ ] Yes: [date]          |
-> | Attack team:                 | [group]                  |
-> | Attack team members:         | [members]                |
->
-> ## Technical details
->
-> | Name                         | Details                  |
-> |------------------------------|--------------------------|
-> | Initial attack vector:       | [attack vector]          |
-> | IPs / FQDNs                  | [IP / FQDN list]         |
->
-> ### Scenario
-> [scenario detail]
->
-> ### Expected reaction
-> [details to the expected reactions from the CSIRT]
->
-> ## Attack tracker
->
-> | Time                         | Details                  |
-> |------------------------------|--------------------------|
-> | [time]                       | Initial attack           |
-> | [time]                       | [next step]              |
+```
+# War game: [name]
+## General
 
+| Name                         | Details                  |
+|------------------------------|--------------------------|
+| Date:                        | [date]                   |
+| Type:                        | [ ] with Notification    |
+|                              | [ ] without Notification |
+| CSIRT management contact:    | [name]                   |
+|                              | [email]                  |
+| CSIRT management approval:   | [ ] Yes: [date]          |
+| Project name                 | [project name]           |
+| Project management contact:  | [name]                   |
+|                              | [email]                  |
+| Project management approval: | [ ] Yes: [date]          |
+| Attack team:                 | [group]                  |
+| Attack team members:         | [members]                |
+
+## Technical details
+
+| Name                         | Details                  |
+|------------------------------|--------------------------|
+| Initial attack vector:       | [attack vector]          |
+| IPs / FQDNs                  | [IP / FQDN list]         |
+
+### Scenario
+[scenario detail]
+
+### Expected reaction
+[details to the expected reactions from the CSIRT]
+
+## Attack tracker
+
+| Time                         | Details                  |
+|------------------------------|--------------------------|
+| [time]                       | Initial attack           |
+| [time]                       | [next step]              |
+```
 ## Example
 > # War game: Azure Portal credential theft
 > ## General
