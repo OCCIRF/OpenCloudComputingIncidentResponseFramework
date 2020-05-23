@@ -1,6 +1,5 @@
 # Template: War Game Evaluation 
-This template helps to plan and conduct a war game. All needed details for one can be documented in the template for
-further references.
+This template helps to evaluate a conducted war game. This can then be used to document and further optimize activities.
 
 ## Template
 > # War game: [name]
