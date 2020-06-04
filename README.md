@@ -3,7 +3,8 @@ The *Open Cloud Computing Incident Response Framework (OCCIRF)* is an open sourc
 incidents in a cloud environment. This framework not written for a specific cloud. It supports all cloud solutions and
 is a more generic framework.  
 This framework is more focused on the process of the incident response. In the [examples](examples) folder you can find
-some examples how to implement given tasks in the cloud. The framework is divided in three main parts:
+some examples how to implement given tasks in the cloud. The framework is divided in four main parts:
+![Incident response Circle](circle.png)
 1. [Preparation](preparation)
    1. [Organisational preparation](preparation/organisational.md)
    2. [technical preparation](preparation/technical.md)

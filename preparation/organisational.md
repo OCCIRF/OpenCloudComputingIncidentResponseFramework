@@ -92,7 +92,7 @@ knowledge. The trainers are not relevant for an incident, but they are helping a
 #### Legal Manager
 The legal manager is responsible for legal questions for the incident. He as to provide contact details to authorities
 to the communication manager or work with him together on statements for them. He can also consult the management, or
-the incident response team in legal questions.Moreover, he needs also help the team in GDPR topics if there is no
+the incident response team in legal questions. Moreover, he needs also help the team in GDPR topics if there is no
 dedicated department for data protection in the organisation.
 
 #### IT operations
@@ -222,6 +222,8 @@ The policies should be on a high level to leave some room for the project to ada
 derived from the ISO 27001 standard (e.g.
 [ISO 27001 - Annex A.16](https://www.isms.online/iso-27001/annex-a-16-information-security-incident-management/)).
 
+Following examples are available:
+- [Incident Classification](../examples/incidentClassification.md)
 ***ToDo: add example policies: e.g. rating, reporting***
 
 ## Training
