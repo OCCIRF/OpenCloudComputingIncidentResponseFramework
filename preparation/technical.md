@@ -69,8 +69,9 @@ Here the developers and the operations team are in duty to provide the necessary
 monitoring systems. To force the developers and project teams to implement those measures a corporate policy might be
 helpful. 
  
-## Data extraction concept
-
 ## Access
+
+## Data Extraction
+
 
 ## Response Tool Chain
