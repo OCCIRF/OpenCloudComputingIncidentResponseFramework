@@ -23,6 +23,10 @@ a good start to complete this process:
 - Incident Management
 - Security Management
 
+## Quick Start
+
+@TODO: Add some quick start stuff like fill out these templates and go
+
 ## Content
 
 | Index | Description |

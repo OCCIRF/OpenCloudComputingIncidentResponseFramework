@@ -217,6 +217,7 @@ incident response process the policies should define following terms:
 - Communication guidelines and plans
 - Escalation processes
 - Prioritization and ratings of incidents
+- Guidelines for developers to provide information to the CSIRT
 
 The policies should be on a high level to leave some room for the project to adapt the policies. The policies could be
 derived from the ISO 27001 standard (e.g.
@@ -224,6 +225,7 @@ derived from the ISO 27001 standard (e.g.
 
 Following examples are available:
 - [Incident Classification](../examples/incidentClassification.md)
+
 ***ToDo: add example policies: e.g. rating, reporting***
 
 ## Training
