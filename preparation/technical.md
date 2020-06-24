@@ -27,7 +27,7 @@ also targeting different environments.
 For this central logging approach the CSIRT or another SOC Team has to provide a central solution where all project
 teams can send their log to. Examples can be found [here](../examples/centralLogging.md).
 
-### Log sharing
+### Log sharing?
 
 ### Log analysis
 When the log files are centrally stored they can be analysed. Without analysing the log files no events can be found and
@@ -57,6 +57,7 @@ Monitoring helps visualise trends for the monitored KPIs. Those KPIs might be:
  * Network usage (in- and outgoing traffic, sessions, delays)
    * Higher than normal traffic might be caused by data exfiltration (outgoing traffic) or a DOS attack (incoming
    traffic)
+   * Burst request from a single IP address. This could be recon from that address.
  * Service availability (Host checks, network availability)
    * Non responsive hosts might be caused by a DOS attack, a manipulation of the system or a host failure
 
@@ -70,8 +71,30 @@ monitoring systems. To force the developers and project teams to implement those
 helpful. 
  
 ## Access
+An access concept was already a topic in the [organisational preparation](organisational.md#access-concept). In the
+organisational preparation the process was defined how the CSIRT gains access to an infected environment. In the
+technical preparation the technical configuration part needs to be done. Here it needs to be defined what is needed to
+access an environment. This includes:
+ * Personal accounts for the respective cloud providers
+ * Documented logins ULRs to gain access to the cloud interfaces
+ * Roles to gain access to the different subscriptions / accounts
 
-## Data Extraction
-
+***@TODO: describe more here***
+ 
+## Data Export
+When an incident happens the data might need to get extracted from the environment for further analysis. This can get
+complicated when the data don't be located on an infrastructure service (like a VM). If the data is stored on a platform
+service it isn't that easy to export them. Here are normally API calls necessary or different roles to get the data.  
+In the planning process of the incident response the CSIRT and the operation team should plan on how to export needed
+data in an incident case.  
+Examples can be found [here](../examples/dataExport.md).
 
 ## Response Tool Chain
+The CSIRT needs to be able to react quickly and efficiently to an incident. There are tools available which helps
+achieve that. Those tools ne to be handy and quickly operational. For that a response tool chain in the cloud is
+helpful.  
+This toolchain helps the CSIRT to quickly gather all information and initialize all necessary steps. The toolchain might
+be a set of serverless services or a full VM which can be spun up in the cloud environment. THis toolchain needs to be
+maintained and set up for the needed use cases. E.g. it is not target-oriented to have a toolchain ready for OS
+forensics when all environments are PaaS only.  
+Example tools can be found [here](../examples/tools.md).
