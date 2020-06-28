@@ -27,8 +27,6 @@ also targeting different environments.
 For this central logging approach the CSIRT or another SOC Team has to provide a central solution where all project
 teams can send their log to. Examples can be found [here](../examples/centralLogging.md).
 
-### Log sharing?
-
 ### Log analysis
 When the log files are centrally stored they can be analysed. Without analysing the log files no events can be found and
 reacted to. Log analysis is the step where the raw log lines gets correlated with each other and analysed for malicious

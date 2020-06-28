@@ -1,8 +1,8 @@
 # Communication Examples
 
-## Internal
+## Internal communication
 
-### Example without direct user impact
+### Affected user without direct impact
 > Dear colleagues,
 >
 > We have to inform you that we had a security incident in our IT infrastructure. This incident was discovered on [date]
@@ -29,7 +29,7 @@
 >
 > [management]
 
-### Example with direct user impact
+### Affected user with direct impact
 > Dear [user],
 >
 > regarding the incident which was reported in the e-mail from [date] we have to inform you that unfortunately personal
@@ -47,9 +47,9 @@
 > [management]
 
 
-## To Customers
+## External communication
 
-### Example without direct customer impact
+### Affected user without direct impact
 > Hello [customer],
 >
 > We are writing you to inform you of an IT security incident, that was recently identified in our systems.
@@ -75,7 +75,7 @@
 > [Representative Name]  
 > [company] 
 
-### Example with direct customer impact
+### Affected user with direct impact
 > Hello [customer],
 >
 > We are writing you to inform you of an IT security incident, that was recently identified in our systems.
