@@ -1,4 +1,13 @@
 # Communication Examples
+These examples can help the incident response team to easily contact customers or colleagues inside the organisation. 
+
+1. [Internal communication](#internal-communication)
+   1. [Affected user without direct impact](#affected-user-without-direct-impact)
+   1. [Affected user with direct impact](#affected-user-with-direct-impact)
+   1. [Notification to project teams and system administrators](#notification-to-project-teams-and-system-administrators)
+1. [External communication](#external-communication)
+   1. [Affected user without direct impact](#affected-user-without-direct-impact)
+   1. [Affected user with direct impact](#affected-user-with-direct-impact)
 
 ## Internal communication
 
@@ -20,7 +29,7 @@
 > Please refrain from communicating this incident to the public. This is taken care of by our communication team (
 > [communication.internal@company.com]).
 >
-> If you have any questions regarding this incident please contact the CISRT at
+> If you have any questions regarding this incident please contact the CSIRT at
 > [InternalIncidentCommunication@company.com]
 >
 > I'd like to thank the CISRT for their excellent work.
@@ -34,9 +43,7 @@
 >
 > regarding the incident which was reported in the e-mail from [date] we have to inform you that unfortunately personal
 > data from you were affected. The affected data are:
-> * _password_
-> * _username_
-> * _payslip_
+> * [affectedData]
 >
 > We want you to know that we take this incident very seriously. Please accept our sincere apology of the breach of
 > trust this issue caused.  
@@ -46,6 +53,20 @@
 >
 > [management]
 
+### Notification to project teams and system administrators
+> Dear colleagues,
+>
+> on [date] we registered an incident in one of our [cloud] environments.  
+> After carefully analysing the incident we came to the conclusion that [root-cause] was the root cause. Please check
+> if your environment is vulnerable to this attack. Our recommended measures to prevent this incident in the future are:
+> * [measures]
+>
+> Thank you for keeping our company safe from security incidents. For more inquireies pleas do not hesitate to contact
+> the CSIRT  at [InternalIncidentCommunication@company.com]
+>
+> Best regards,
+>
+> [CSIRTCommunicationManager]
 
 ## External communication
 
@@ -60,9 +81,7 @@
 >
 > Our investigation showed that non of your stored data were affected by this incident.  
 > To be on the safe side we need you to take following steps:
-> * _change your password_
-> * _check for suspicious credit card reservations_
-> * _..._
+> * [steps]
 >
 > We want you to know that we take this incident very seriously. Please accept our sincere apology of the breach of
 > trust this issue caused. At the moment we are conducting an in-depth analysis of this incident and reviewing all of 
@@ -85,14 +104,10 @@
 > Based on our analysis we took action and remediated the incident.
 >
 > Our investigation showed that following of your stored data were affected by this incident:
-> * _password_
-> * _username_
-> * _credit card detail_
+> * [affectedData]
 >
 > Please take following steps to minimize the impact of your data:
-> * _change your password_
-> * _check for suspicious credit card reservations_
-> * _..._
+> * [steps]
 >
 > We want you to know that we take this incident very seriously. Please accept our sincere apology of the breach of
 > trust this issue caused. At the moment we are conducting an in-depth analysis of this incident and reviewing all of 

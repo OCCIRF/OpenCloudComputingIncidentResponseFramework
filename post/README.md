@@ -28,4 +28,9 @@ A template can be found [here](../templates/incidentDocumentation.md).
 
 ## Enhancement of the Organisation
 All incidents have a root-cause which might be preventable. The information how the incident started is important for
-other cloud users to prevent that from happening in their environment. 
+other cloud users to prevent that from happening in their environment. The notification for that can be sen to the
+cloud environment administrators via e-mail
+([Exampe](../examples/communication.md#notification-to-project-teams-and-system-administrators)) or some other
+messaging tools (like Slack or MS Teams notification).  
+Also, most cloud providers also offer policy tools where an organisation administrator can create policies which are
+enforced in the environments as alerts or direct changes (E.g. Azure policy or AWS config rules).
