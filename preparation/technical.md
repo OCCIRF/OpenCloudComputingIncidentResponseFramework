@@ -15,7 +15,20 @@ environments. Therefor log files need to be central aggregated and configured to
 zone.  
 Further more log entries needs to be protected from manipulation or deletion from unauthorized parties.
 
-### Log aggregation
+### Data Sources
+To get meaningful data out of the logs proper data sources have to be implemented or configured. Most cloud provider
+offer a wide variety of possible log sources. Those data sources need to be delivered into the log aggregator. Possible
+logs are following:
+* Identity management
+* Cloud API
+* Flows form virtual networks
+* Infrastructure (E.g VM logs, kubernetes logs)
+* Application (E.g. Web application, database)
+
+Without proper data sources configured the log analysis gets complicated as there is not enough data available to
+analyse and correlate. Examples for the different log sources can be found [here](../examples/dataSources.md).
+
+### Log Aggregation
 With the separation of different development projects into different subscriptions or accounts a centralized logging and
 investigation platform has to be established. This should be done in a separate subscription or account where the CSIRT
 can then correlate all needed events. The central correlation is important to see attacks in different environments.
@@ -27,7 +40,7 @@ also targeting different environments.
 For this central logging approach the CSIRT or another SOC Team has to provide a central solution where all project
 teams can send their log to. Examples can be found [here](../examples/centralLogging.md).
 
-### Log analysis
+### Log Analysis
 When the log files are centrally stored they can be analysed. Without analysing the log files no events can be found and
 reacted to. Log analysis is the step where the raw log lines gets correlated with each other and analysed for malicious
 behavior or known patterns. 
