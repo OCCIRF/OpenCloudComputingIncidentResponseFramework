@@ -76,7 +76,7 @@ Valid at: [validDate]
 
 ## Example
 
-### CSIRT Roles Template
+### CSIRT Roles Template Example
 > # Roles an Responsibilites
 > This document contains the standard roles for the CSIRT. Deviations are documented in team calendar.
 >
@@ -109,7 +109,7 @@ Valid at: [validDate]
 > | Trainer: Linux               | Maria                    | maria@example.com     |
 > | Legal Manager                | Josef                    | josef@example.com     |
 
-### Project Incident Response Roles Template
+### Project Incident Response Roles Template Example
 > # Roles an Responsibilities: [project] 
 > This document contains the standard roles for the CSIRT. Deviations are documented in [documentation].
 > 
