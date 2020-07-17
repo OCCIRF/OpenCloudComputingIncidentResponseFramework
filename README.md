@@ -40,8 +40,11 @@ a good start to complete this process:
 ## Annotations
 
 ## Quick Start
+As most of us don't want to read the documentation we developed a quick start checklist to immediately start working on
+the process. The checklist does not fully replace the full documentation but it is a quick way to start working on the
+process.
 
-@TODO: Add some quick start stuff like fill out these templates and go
+Go to the [quick start checklist](quickStart.md)
 
 ## Authors
 
