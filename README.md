@@ -22,6 +22,13 @@ a good start to complete this process:
 - Incident Management
 - Security Management
 
+## Quick Start
+As most of us don't want to read the documentation we developed a quick start checklist to immediately start working on
+the process. The checklist does not fully replace the full documentation, but it is a quick way to start working on the
+process.
+
+Go to the [quick start checklist](quickStart.md)
+
 ## Content
 
 | Index                      | Description                                   |
@@ -39,13 +46,6 @@ a good start to complete this process:
 
 ## Annotations
 
-## Quick Start
-As most of us don't want to read the documentation we developed a quick start checklist to immediately start working on
-the process. The checklist does not fully replace the full documentation but it is a quick way to start working on the
-process.
-
-Go to the [quick start checklist](quickStart.md)
-
 ## Authors
 
 * **[masteroflittle](https://github.com/masteroflittle)** - *Initial work*
@@ -55,8 +55,7 @@ See also the list of
 participated in this project.
 
 ## License
-The project license is the
-[Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/) -
-see the [LICENSE](LICENSE.md) file for details
+This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
+See the [LICENSE](LICENSE.md) file for details.
 
-![Creative Commons Attribution-ShareAlike 4.0 International License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)
+![Creative Commons Attribution-ShareAlike 4.0 International License](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)
