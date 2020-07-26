@@ -35,13 +35,14 @@ classification is then the baseline for the further actions and who will be aler
 ## Triage
 While in triage of the incident the CSIRT needs to carefully but fast analyse the incident. This needs to be done to 
 find out what happened and which systems are affected. The list of affected systems is the baseline of the actions of 
-the containment. For the triage the logs are again the source of truth in cloud environments. .....
+the containment. For the triage the logs are again the source of truth in cloud environments. ..... ***Triage checklist?***
 
 ## Containment
 The containment is the most different part of the incident response compared to the on-premises incident response. 
 On-premises it is possible to plug out the servers in the worst case scenario. In the cloud environment this is not
 possible. The containment is also very different between the three service models provided in the cloud (IaaS, PaaS,
-SaaS). 
+SaaS). It is very important to document the steps done in the containment phase. This documentation is later needed for
+the recovery and the reconstruction of the incident.
 
 ### IaaS
 Infrastructure-as-a-Service is the service model which is the nearest to the on-premises world. When a IaaS component is
@@ -61,5 +62,10 @@ it is possible to lock the access to the solution for all employees to prevent f
 the service should be revoked. 
 
 ## Eradication / Recovery
+After the incident is contained the environment needs to be cleaned up. This means that all changes made by the
+intrusion needs to be found and eliminated. The best option is to nuke the environment and rebuild a new version with
+backups from before the incident. If this is not possible each service needs to be inspected if the intrusion changed
+something there. To help analyse the incident it is also possible to rebuild the environment in a different subscription
+or account. The compromised environment can then be used for a forensic analysis.
 
 ## Reconstruction / Root-Cause Analysis
