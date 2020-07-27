@@ -33,9 +33,10 @@ If the event is an incident the incident needs to be classified as described in 
 classification is then the baseline for the further actions and who will be alerted.  
 
 ## Triage
-While in triage of the incident the CSIRT needs to carefully but fast analyse the incident. This needs to be done to 
-find out what happened and which systems are affected. The list of affected systems is the baseline of the actions of 
-the containment. For the triage the logs are again the source of truth in cloud environments. ..... ***Triage checklist?***
+The event classification and the triage go hand in hand. While in triage of the event the CSIRT needs to carefully
+but fast analyse the impact of the incident. This needs to be done to find out what happened and which systems are
+affected. The list of affected systems is the baseline of the actions of the containment. For the triage the logs are
+again the source of truth in cloud environments. ..... ***Triage checklist?***
 
 ## Containment
 The containment is the most different part of the incident response compared to the on-premises incident response. 
@@ -69,3 +70,7 @@ something there. To help analyse the incident it is also possible to rebuild the
 or account. The compromised environment can then be used for a forensic analysis.
 
 ## Reconstruction / Root-Cause Analysis
+While reconstructing the incident the CSIRT needs to find out exactly what happened. This is the forensics part of the
+incident response. Here the root-cause needs to be found and the attack tracked. Before doing the root-cause analysis
+the team needs to decide if it needs to be evidential for law-enforcements or only an internal commitment.  
+@ToDo: add more 
