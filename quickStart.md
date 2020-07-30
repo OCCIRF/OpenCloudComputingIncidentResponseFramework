@@ -39,7 +39,7 @@ This is the quick start checklist to get the incident response process working f
 ## Technical preparation
 - [ ] Build a central logging concept
     - define the [data sources](examples/dataSources.md)
-    - build a central logging solution. See [here](examples/centralLogging.md) for examples
+    - build a central logging solution (See [here](examples/centralLogging.md) for examples)
     - Analyse your logs with [playbooks](examples/playbooks.md) as support
     - Set up monitoring
 - [ ] Implement the defined access concept
