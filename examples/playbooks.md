@@ -3,6 +3,7 @@ These are examples how playbooks might be set up for the cloud. Those playbooks 
 adapted to the used cloud provider.
 
 ## Platform and accounts
+
 | Source        | Indicator                           | Possible Incident | Mitigation Steps                |
 |---------------|-------------------------------------|-------------------|---------------------------------|
 | Billing alert | The account spending rises abnormal | Account takeover  | 1. Find the source of the spending<br>2. Get the initiator<br>3. Clarify it is intentionally<br>4. Block the account and clean the resources |
@@ -12,6 +13,7 @@ adapted to the used cloud provider.
 | Access log | Many failed login attempts | Account brute-force | 1. Blacklist the source IP<br>2. Lock the account | 
 
 ## Application
+
 | Source        | Indicator                           | Possible Incident | Mitigation Steps                |
 |---------------|-------------------------------------|-------------------|---------------------------------|
 | Database log  | High amount of failed queries       | SQL injection attempt | 1. Control application and check the queries<br> 2. Block the source IP<br>3. Fix the issue which causes the failed queries |
