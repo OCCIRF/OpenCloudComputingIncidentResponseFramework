@@ -2,16 +2,17 @@
 These examples can help the incident response team to easily contact customers or colleagues inside the organisation. 
 
 1. [Internal communication](#internal-communication)
-   1. [Affected user without direct impact](#affected-user-without-direct-impact)
-   1. [Affected user with direct impact](#affected-user-with-direct-impact)
+   1. [Affected internal user without direct impact](#affected-internal-user-without-direct-impact)
+   1. [Affected internal user with direct impact](#affected-internal-user-with-direct-impact)
    1. [Notification to project teams and system administrators](#notification-to-project-teams-and-system-administrators)
 1. [External communication](#external-communication)
-   1. [Affected user without direct impact](#affected-user-without-direct-impact)
-   1. [Affected user with direct impact](#affected-user-with-direct-impact)
+   1. [Affected external user without direct impact](#affected-external-user-without-direct-impact)
+   1. [Affected external user with direct impact](#affected-external-user-with-direct-impact)
+
 
 ## Internal communication
 
-### Affected user without direct impact
+### Affected internal user without direct impact
 > Dear colleagues,
 >
 > We have to inform you that we had a security incident in our IT infrastructure. This incident was discovered on [date]
@@ -38,7 +39,7 @@ These examples can help the incident response team to easily contact customers o
 >
 > [management]
 
-### Affected user with direct impact
+### Affected internal user with direct impact
 > Dear [user],
 >
 > regarding the incident which was reported in the e-mail from [date] we have to inform you that unfortunately personal
@@ -70,7 +71,7 @@ These examples can help the incident response team to easily contact customers o
 
 ## External communication
 
-### Affected user without direct impact
+### Affected external user without direct impact
 > Hello [customer],
 >
 > We are writing you to inform you of an IT security incident, that was recently identified in our systems.
@@ -94,7 +95,7 @@ These examples can help the incident response team to easily contact customers o
 > [Representative Name]  
 > [company] 
 
-### Affected user with direct impact
+### Affected external user with direct impact
 > Hello [customer],
 >
 > We are writing you to inform you of an IT security incident, that was recently identified in our systems.

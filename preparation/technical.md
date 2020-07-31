@@ -11,7 +11,7 @@ services are used it is most likely the case that the administrator, nor the sec
 to analyse security events with forensic tools.  
 The log entries are one of the most important source of information about the health of a system and a great indicator
 of a possible compromise or other incident. Log files are there to trace certain events through an application and whole
-environments. Therefor log files need to be central aggregated and configured to have e.g. the same time source and time
+environments. Therefore, log files need to be central aggregated and configured to have e.g. the same time source and time
 zone.  
 Further more log entries needs to be protected from manipulation or deletion from unauthorized parties.
 
@@ -66,7 +66,7 @@ Monitoring helps visualise trends for the monitored KPIs. Those KPIs might be:
  * Utilization of resources (CPU, RAM, Storage)
    * High utilization of CPU usage might be caused by a DOS attack or some malicious software
  * Network usage (in- and outgoing traffic, sessions, delays)
-   * Higher than normal traffic might be caused by data exfiltration (outgoing traffic) or a DOS attack (incoming
+   * Higher than normal traffic might be caused by data exfiltration (outgoing traffic) or a DoS attack (incoming
    traffic)
    * Burst request from a single IP address. This could be recon from that address.
  * Service availability (Host checks, network availability)

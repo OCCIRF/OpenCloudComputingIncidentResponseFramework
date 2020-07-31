@@ -41,7 +41,7 @@ This is the quick start checklist to get the incident response process working f
     - define the [data sources](examples/dataSources.md)
     - build a central logging solution (See [here](examples/centralLogging.md) for examples)
     - Analyse your logs with [playbooks](examples/playbooks.md) as support
-    - Set up monitoring
+    - Set up monitoring 
 - [ ] Implement the defined access concept
 - [ ] Set up a data export concept for infected data
 - [ ] Prepare your incident response toolchain with [tools](examples/tools.md)

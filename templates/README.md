@@ -2,7 +2,6 @@
 
 Following templates are available:
 1. [Template: Asset Facts Sheet](assetFactsSheet.md)
-1. [communicationPlan.md](communicationPlan.md)
 1. [Template: Incident Facts Sheet](incidentFactsSheet.md)
 1. [onBoardingChecklist.md](onBoardingChecklist.md)
 1. [Template: Preparation Checklist](preparationChecklist.md)

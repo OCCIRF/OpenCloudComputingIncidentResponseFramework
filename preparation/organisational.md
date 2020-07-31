@@ -182,7 +182,7 @@ transparently and should explain what happened in the environment. It should als
 data. The e-mail should clarify everything and should not hide the real impact or the severity of the incident. The
 communication to the customer should be done by experts in this topic with help from the legal department. The CSIRT
 should only provide the technical details.  
-Examples for a communication to the customers can be found [here](../examples/communication.md#to-customers).
+Examples for a communication to the customers can be found [here](../examples/communication.md#external-communication).
 
 ### Communication to law enforcements
 Communicating to law enforcements can be necessary if a local law enforces that. This can be for example the GDPR if
