@@ -101,7 +101,7 @@ be configured as write only for the affected cloud environment, so data can be s
 
 ## Response Tool Chain
 The CSIRT needs to be able to react quickly and efficiently to an incident. There are tools available which helps
-achieve that. Those tools ne to be handy and quickly operational. For that a response tool chain in the cloud is
+achieve that. Those tools need to be handy and quickly operational. For that a response tool chain in the cloud is
 helpful.  
 This toolchain helps the CSIRT to quickly gather all information and initialize all necessary steps. The toolchain might
 be a set of serverless services or a full VM which can be spun up in the cloud environment. THis toolchain needs to be
