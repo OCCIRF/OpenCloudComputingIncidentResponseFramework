@@ -1,5 +1,5 @@
 # Quick Start Checklist
-This is the quick start checklist to get the incident response process working fastly.
+This is the quick start checklist to get the incident response process working.
 
 ## Organisational Preparation
 - [ ] Build an asset management
@@ -43,15 +43,24 @@ This is the quick start checklist to get the incident response process working f
     - Analyse your logs with [playbooks](examples/playbooks.md) as support
     - Set up monitoring 
 - [ ] Implement the defined access concept
-- [ ] Set up a data export concept for infected data
+- [ ] Set up a data export concept for infected data (See [here](preparation/technical.md)))
 - [ ] Prepare your incident response toolchain with [tools](examples/tools.md)
 
 ## Handling an Incident
- @ToDo
-
+- [ ] Take care of your input events
+- [ ] Classify the event if this is a security related event
+- [ ] Triage the event
+    - Use [this example](examples/incidentClassification.md) for the classification
+- [ ] Start containing the incident
+    - Take care of the different cloud service models (See [here](handling/README.md#containment))
+- [ ] Recover or rebuild the environment
+    - Take care that the evidence won't get deleted
+    - Fix the initial attack vector before redeploying
+- [ ] Do a root-cause analysis to find all traces form the attacker
+    - This helps also to reconstruct what happens and to improve the systems and processes
 
 ## Post-Processing
 - [ ] Conduct lessons learned
 - [ ] Finish the documentation
-    - use a [template](templates/incidentDocumentation.md)
+    - use a [template](templates/incidentFactsSheet.md)
 - [ ] Use the gathered knowledge to enhance the organisation

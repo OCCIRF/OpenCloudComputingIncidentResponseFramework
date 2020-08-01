@@ -11,8 +11,8 @@ services are used it is most likely the case that the administrator, nor the sec
 to analyse security events with forensic tools.  
 The log entries are one of the most important source of information about the health of a system and a great indicator
 of a possible compromise or other incident. Log files are there to trace certain events through an application and whole
-environments. Therefore, log files need to be central aggregated and configured to have e.g. the same time source and time
-zone.  
+environments. Therefore, log files need to be central aggregated and configured to have e.g. the same time source and
+time zone.  
 Further more log entries needs to be protected from manipulation or deletion from unauthorized parties.
 
 ### Data Sources
@@ -89,8 +89,6 @@ access an environment. This includes:
  * Personal accounts for the respective cloud providers
  * Documented logins ULRs to gain access to the cloud interfaces
  * Roles to gain access to the different subscriptions / accounts
-
-***@TODO: describe more here***
  
 ## Data Export
 When an incident happens the data might need to get extracted from the environment for further analysis. This can get
@@ -98,7 +96,8 @@ complicated when the data don't be located on an infrastructure service (like a 
 service it isn't that easy to export them. Here are normally API calls necessary or different roles to get the data.  
 In the planning process of the incident response the CSIRT and the operation team should plan on how to export needed
 data in an incident case.  
-Examples can be found [here](../examples/dataExport.md).
+The destination for those relevant data can be a storage service in the cloud environment. This storage account can then
+be configured as write only for the affected cloud environment, so data can be stored there easily.
 
 ## Response Tool Chain
 The CSIRT needs to be able to react quickly and efficiently to an incident. There are tools available which helps

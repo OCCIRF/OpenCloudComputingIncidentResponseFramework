@@ -73,4 +73,8 @@ or account. The compromised environment can then be used for a forensic analysis
 While reconstructing the incident the CSIRT needs to find out exactly what happened. This is the forensics part of the
 incident response. Here the root-cause needs to be found and the attack tracked. Before doing the root-cause analysis
 the team needs to decide if it needs to be evidential for law-enforcements or only an internal commitment.  
-@ToDo: add more 
+To conduct the root cause analysis a few things have to be taken care of. First the cloud services are often not easy
+accessible (E.g. analysing the stored data or live analysis of the ram). Secondly they are stripped down most of the
+time, so they only provide necessary tools for their job. Also, a lot of the cloud services (Like Azure Web App) are
+based on containers which will be redeployed once they crash or after a given amount of time. This then also deletes 
+all evidence of a possible breach services based on those platforms. 

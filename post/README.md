@@ -24,7 +24,7 @@ After the incident is finalised it needs to be documented. The documentation sho
 important for tracing the event. It should also contain all involved parties in the incident.  
 A baseline for a good documentation is that someone who was not involved in the incident understands with only the
 documentation what happened, what was done and who was involved.
-A template can be found [here](../templates/incidentDocumentation.md).
+A template can be found [here](../templates/incidentFactsSheet.md).
 
 ## Enhancement of the Organisation
 All incidents have a root-cause which might be preventable. The information how the incident started is important for

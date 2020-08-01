@@ -3,7 +3,7 @@ This template helps to document all available information about an ongoing incid
 
 ## Template
 ```
-# Incident: [incidentName]
+# Incident: [IncidentId]: [incidentName]
 ## General
 
 | Name                         | Details                  |
@@ -53,7 +53,7 @@ This template helps to document all available information about an ongoing incid
 ```
 
 ## Example
-> # Incident: Possible Azure credential theft
+> # Incident: INC-20200202-0910: Possible Azure credential theft
 > ## General
 >
 > | Name                         | Details                  |

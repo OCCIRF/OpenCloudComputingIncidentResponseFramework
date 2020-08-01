@@ -44,14 +44,17 @@ management contains all relevant assets which might be helpful in an incident ca
   - Service owners
   - Criticality
   - Processed data
-- ***@TODO: More needed***
+- Responsible department
+- Risk assessment
+- Architecture
 
 Those fact sheets can be stored in an asset management tool or a simple database (See
 [examples/assetManagement](../examples/assetManagement.md)). Also, an offline version is possible as in an incident case
 it is not guaranteed that the online asset management tools are accessible (See
 [templates/assetFactsSheet](../templates/assetFactsSheet.md)).  
 The more precisely the facts sheets are the easier it is to get all needed assets in an incident case. To assure that
-all facts sheets are up to date a periodic review should be done.
+all facts sheets are up to date a periodic review should be done.  
+For a deeper dive into this topic the ITIL contains information about IT asset management.
    
 ## Roles and responsibilities
 Defined responsibilities are important in an incident process as all involved persons need to know what they need to do.
@@ -99,7 +102,7 @@ dedicated department for data protection in the organisation.
 Normally the IT operations are responsible for the deployed solutions. In an incident case they have the most knowledge
 about their infrastructure. The incident response team should be able to get in touch with those operation teams if they
 can help resolve the incident. Those contacts need to be stated in the asset facts sheet, so a contact person is always
-known. (@TODO: Azure list security contacts)
+known.
 
 ### Providers
 As all cloud solutions are based on a provider it is important to have a direct line of contact to them. For that case a
@@ -121,7 +124,7 @@ possibility to quickly access any affected systems.
 While normal operating the CSIRT needs access to the project accounts/subscriptions only as read-only users. Read-only
 access is necessary to get log data or metrics to a central log environment. The best way to guarantee the read-only
 access is to force this via an identity management system (Like the Azure AD or AWSs IAM). This identity management
-system forces the CSIRT group into all corporate subscriptions/accounts. ***@TODO: Add link to log preparation***
+system forces the CSIRT group into all corporate subscriptions/accounts.
 
 ![Normal access to a subscription / account](accessConceptDefault.png)
 
@@ -225,8 +228,6 @@ derived from the ISO 27001 standard (e.g.
 
 Following examples are available:
 - [Incident Classification](../examples/incidentClassification.md)
-
-***ToDo: add example policies: e.g. rating, reporting***
 
 ## Training
 Training is important for all IT security professionals. Trainings are needed to keep up with the newest technologies
