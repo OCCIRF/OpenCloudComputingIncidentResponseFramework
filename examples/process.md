@@ -71,7 +71,7 @@ When the incident is analysed and the threats are identified the incident can be
 response team tries to hold in the actions of the attacker. This might be through isolating the affected systems or 
 isolating the threat inside those. Also, it might be possible to lock out the attacker from the environment.  
 After the containment of the incident the affected systems need to be recovered. Here the incident response team have to
-eradicate the changes the attack did to the systems. A operation team from this service might be helpful to recover the
+eradicate the changes the attack did to the systems. An operation team from this service might be helpful to recover the
 systems to a known good state.
 
 ### Root Cause Analysis and Finalization

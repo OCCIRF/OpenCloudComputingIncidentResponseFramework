@@ -207,7 +207,7 @@ organisation and the departments, which are part of the incident response proces
 A process example can be found [here](../examples/process.md).
 
 ## Governance and Policies
-Governance and policies are the pillar for a well planned incident response process. The policies are defining on a high
+Governance and policies are the foundation for a well planned incident response process. The policies are defining on a high
 level how this process is built and who is responsible for the different parts. The policies apply corporation wide and
 are most likely binding for all employees. The governance department is defining the polices. In the case of the
 incident response process the policies should define following terms:
