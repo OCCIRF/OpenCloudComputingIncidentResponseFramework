@@ -104,7 +104,7 @@ The CSIRT needs to be able to react quickly and efficiently to an incident. Ther
 achieve that. Those tools need to be handy and quickly operational. For that a response tool chain in the cloud is
 helpful.  
 This toolchain helps the CSIRT to quickly gather all information and initialize all necessary steps. The toolchain might
-be a set of serverless services or a full VM which can be spun up in the cloud environment. THis toolchain needs to be
+be a set of serverless services or a full VM which can be spun up in the cloud environment. This toolchain needs to be
 maintained and set up for the needed use cases. E.g. it is not target-oriented to have a toolchain ready for OS
 forensics when all environments are PaaS only.  
 Example tools can be found [here](../examples/tools.md).

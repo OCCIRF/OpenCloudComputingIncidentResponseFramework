@@ -76,7 +76,7 @@ systems to a known good state.
 
 ### Root Cause Analysis and Finalization
 
-![Process workflow](pictures/finilazation.png)
+![Process workflow](pictures/finalization.png)
 
 After the danger for the attack is remediated the analysis of the root cause can start. The root cause analysis is
 searching for the initial attack vector and the movement between the affected systems. This needs to be done to harden
