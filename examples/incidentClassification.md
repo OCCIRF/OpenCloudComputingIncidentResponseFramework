@@ -1,5 +1,5 @@
 # Incident classification
-To handle and escalate an incident properly the incident has to classified. This classification should be done in a way
+To handle and escalate an incident properly the incident has to be classified. This classification should be done in a way
 where all involved parties are on the same page.  
 In ITIL (ITIL Service Operation - Incident Management) and the ISO/IEC 20000 a product of the impact and the urgency
 should be used. This product is then the priority or severity of the incident.  

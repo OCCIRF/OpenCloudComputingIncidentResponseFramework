@@ -21,7 +21,7 @@ The mitigation steps are possible solutions for the event. They can and should b
 | Database log  | Unusual high amount of queries      | SQL injection attempt | 1. Control application and check the queries<br> 2. Block the source IP |
 | Resource Monitoring | High application or database load | DoS, injection attempt | 1. Find the cause of the load<br>2. Isolate the resource<br> |
 | Flow log      | Request to unknown endpoint | Breach, malware, Reverse shell | 1. Capture the request<br>2. Terminate the connection<br>3. find the source |
-| Application log | High amount of application errors | DoS, application breach attempt | 1. Analyse the errors<br>2. Block the user<br> 3. Fix the entry point |
+| Application log | High amount of application errors | DoS, application breach attempt | 1. Analyze the errors<br>2. Block the user<br> 3. Fix the entry point |
  
 
 

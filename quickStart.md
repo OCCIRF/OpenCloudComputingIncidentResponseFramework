@@ -1,7 +1,7 @@
 # Quick Start Checklist
 This is the quick start checklist to get the incident response process working.
 
-## Organisational Preparation
+## Organizational Preparation
 - [ ] Build an asset management
     - use a [template](templates/assetFactsSheet.md)
     - use [tools](examples/assetManagement.md)
@@ -24,7 +24,7 @@ This is the quick start checklist to get the incident response process working.
 - [ ] Define your communication plan
     - to the customer
     - to your cloud provider
-    - to the internal organisation
+    - to the internal organization
     - use some [examples](examples/communication.md)
 - [ ] Define the process for incident response
     - use the [example](examples/process.md)
@@ -39,12 +39,12 @@ This is the quick start checklist to get the incident response process working.
 ## Technical preparation
 - [ ] Build a central logging concept
     - define the [data sources](examples/dataSources.md)
-    - build a central logging solution (See [here](examples/centralLogging.md) for examples)
+    - build a central logging solution
     - Analyse your logs with [playbooks](examples/playbooks.md) as support
     - Set up monitoring 
 - [ ] Implement the defined access concept
 - [ ] Set up a data export concept for infected data (See [here](preparation/technical.md)))
-- [ ] Prepare your incident response toolchain with [tools](examples/tools.md)
+- [ ] Prepare your incident response tool chain with [tools](examples/tools.md)
 
 ## Handling an Incident
 - [ ] Take care of your input events
@@ -56,11 +56,11 @@ This is the quick start checklist to get the incident response process working.
 - [ ] Recover or rebuild the environment
     - Take care that the evidence won't get deleted
     - Fix the initial attack vector before redeploying
-- [ ] Do a root-cause analysis to find all traces form the attacker
+- [ ] Do a root-cause analysis to find all traces from the attacker
     - This helps also to reconstruct what happens and to improve the systems and processes
 
 ## Post-Processing
 - [ ] Conduct lessons learned
 - [ ] Finish the documentation
     - use a [template](templates/incidentFactsSheet.md)
-- [ ] Use the gathered knowledge to enhance the organisation
+- [ ] Use the gathered knowledge to enhance the organization

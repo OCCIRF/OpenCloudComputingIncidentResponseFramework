@@ -1,6 +1,6 @@
 # Incident Post-Processing
 When the incident is properly handled and all system are back to nominal operation the post-processing can start. In
-this phase of the incident response the whole event gets finalised.
+this phase of the incident response the whole event gets finalized.
 
 
 ## Lessons Learned
@@ -20,17 +20,17 @@ outcome of this meeting can be used to build slides for the management as an exp
 happen again.
 
 ## Documentation
-After the incident is finalised it needs to be documented. The documentation should contain all detail which are
+After the incident is finalized it needs to be documented. The documentation should contain all detail which are
 important for tracing the event. It should also contain all involved parties in the incident.  
 A baseline for a good documentation is that someone who was not involved in the incident understands with only the
 documentation what happened, what was done and who was involved.
 A template can be found [here](../templates/incidentFactsSheet.md).
 
-## Enhancement of the Organisation
+## Enhancement of the Organization
 All incidents have a root-cause which might be preventable. The information how the incident started is important for
 other cloud users to prevent that from happening in their environment. The notification for that can be sen to the
 cloud environment administrators via e-mail
 ([Example](../examples/communication.md#notification-to-project-teams-and-system-administrators)) or some other
 messaging tools (like Slack or MS Teams notification).  
-Also, most cloud providers also offer policy tools where an organisation administrator can create policies which are
+Also, most cloud providers also offer policy tools where an organization administrator can create policies which are
 enforced in the environments as alerts or direct changes (E.g. Azure policy or AWS config rules).

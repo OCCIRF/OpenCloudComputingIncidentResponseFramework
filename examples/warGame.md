@@ -1,4 +1,4 @@
-# War game examples
+# War Game Examples
 Here you can find examples of war games which can be done to test parts of the incident response process. The following
 examples are small snippets which can be used to test the incident response process. They can also be combined to a big
 war game to test the teams and the process in a more detailed way.

@@ -1,6 +1,6 @@
-# Organisational Incident Preparation
+# Organizational Incident Preparation
 The preparation is an integral part of the incident response process. Here you need to plan and prepare your strategy
-and your tools. In this chapter the focus is on the organisational preparation.
+and your tools. In this chapter the focus is on the organizational preparation.
 
 1. [Asset management](#asset-management)
 1. [Roles and responsibilities](#roles-and-responsibilities)
@@ -22,8 +22,8 @@ and your tools. In this chapter the focus is on the organisational preparation.
    1. [Communication to the cloud provider](#communication-to-the-cloud-provider)
    1. [Internal communication](#internal-communication)
    1. [Communication to customers](#communication-to-customers)
-   1. [Communication to law enforcements](#communication-to-law-enforcements)
-   1. [Communication to other Incident Response Organisations](#communication-to-other-incident-response-organisations)
+   1. [Communication to law enforcement](#communication-to-law-enforcement)
+   1. [Communication to other Incident Response Organizations](#communication-to-other-incident-response-organizations)
 1. [Process documentation](#process-documentation)
 1. [Governance and Policies](#governance-and-policies)
 1. [Training](#training)
@@ -69,7 +69,7 @@ staffed for 24/7. They are responsible for evaluating incoming events and classi
 notifying the incident investigators to handle the incident, if one is detected. 
 
 #### Incident Investigators
-The incident investigators are collection and analysing evidence of the incident. They try to find the root cause if the
+The incident investigators are collection and analyzing evidence of the incident. They try to find the root cause if the
 incident and will implement short-term mitigation measures. The lead investigator is controlling the actions of the
 investigations team and direct the tasks of them.
 
@@ -82,7 +82,7 @@ upper management.
 #### Communication Manager
 The communication manager is handling all sorts of communication to other parties who are involved in the incident. He
 writes press releases or notifications to customers if they are affected. Also, an important communication partner are
-the law enforcements as legal responsibilities are needed to be followed (Like GDPR or KRITIS in Germany). He is
+the law enforcement as legal responsibilities are needed to be followed (Like GDPR or KRITIS in Germany). He is
 responsible for internal communications, too. E.g. communicating the comments on the incident and the affected systems
 to the internal employees.
 
@@ -96,10 +96,10 @@ knowledge. The trainers are not relevant for an incident, but they are helping a
 The legal manager is responsible for legal questions for the incident. He as to provide contact details to authorities
 to the communication manager or work with him together on statements for them. He can also consult the management, or
 the incident response team in legal questions. Moreover, he needs also help the team in GDPR topics if there is no
-dedicated department for data protection in the organisation.
+dedicated department for data protection in the organization.
 
 #### IT operations
-Normally the IT operations are responsible for the deployed solutions. In an incident case they have the most knowledge
+Normally, the IT operations are responsible for the deployed solutions. In an incident case they have the most knowledge
 about their infrastructure. The incident response team should be able to get in touch with those operation teams if they
 can help resolve the incident. Those contacts need to be stated in the asset facts sheet, so a contact person is always
 known.
@@ -132,7 +132,7 @@ system forces the CSIRT group into all corporate subscriptions/accounts.
 When an incident is occurring in the environment the incident response team needs to access the environment quickly to
 contain the incident. As the CSIRT cannot have full access to all environment at all time a 3rd party needs to grant the
 elevated access. This 3rd party as a trusted source helps to guarantee a four-eyes principle and that the principle of
-least privileges his honoured. A workflow for this access could look like following:
+least privileges his honored. A workflow for this access could look like following:
 
 1. The CSIRT team members requests the privileges at the trusted party
 2. This trusted party logs into the IdM system and grants the specific users full access to the requested environment
@@ -154,9 +154,9 @@ A template for the emergency access can be found [here](../templates/emergencyAc
 ![Emergency access to a subscription / account](accessConceptIncident.png)
 
 ## Communication
-The communication of the incident is also very important. Especially when someone outside of the organisation has to be
+The communication of the incident is also very important. Especially when someone outside of the organization has to be
 informed about an incident. The communication should always be done by the communication manager or a trained
-communication employee if possible. The communication is key for the reputation of the affected organisation. Also, it
+communication employee if possible. The communication is key for the reputation of the affected organization. Also, it
 is important to communicate clear and through defined channels. Which is also in responsibility of the communication
 manager.
 
@@ -177,7 +177,7 @@ directly via the line managers.
 
 ### Communication to customers
 The communication to customers is a sensitive topic. Here the customer needs to be informed what happened and if any of
-his data is affected. The communication is important to gain trust back from the customers that the organisation can
+his data is affected. The communication is important to gain trust back from the customers that the organization can
 handle the incident properly. Also, your publicity in the media is affected by that. A notification about an incident
 should be honest and clear for the customers. The fastest way to inform the customers about this incident can be through
 e-mail as most of the time the e-mail is known in a cloud solution. In the e-mail the incident should be explained
@@ -187,27 +187,27 @@ communication to the customer should be done by experts in this topic with help 
 should only provide the technical details.  
 Examples for a communication to the customers can be found [here](../examples/communication.md#external-communication).
 
-### Communication to law enforcements
-Communicating to law enforcements can be necessary if a local law enforces that. This can be for example the GDPR if
+### Communication to law enforcement
+Communicating to law enforcement can be necessary if a local law enforces that. This can be for example the GDPR if
 personal related data is processed. Also, when the incident is reported to the police this communication is necessary.
 The communication should never be done by someone without knowledge of the respective laws. For this communication the
 legal department should be contacted that they can do this.
 
-### Communication to other Incident Response Organisations
-To stay up to date it is important to exchange knowledge with other incident response organisations. This helps to
-identify new attacks which where already discovered by other CSIRTs. Most states have an own CSIRT where a corporation
-CSIRT can get information from. Besides, the CSIRT can join a global organisation like [FIRST](https://www.first.org/).
+### Communication to other Incident Response Organizations
+To stay up to date it is important to exchange knowledge with other incident response organizations. This helps to
+identify new attacks, which were already discovered by other CSIRTs. Most states have an own CSIRT where a corporation
+CSIRT can get information from. Besides, the CSIRT can join a global organization like [FIRST](https://www.first.org/).
 Also, it is possible to use sharing software like the
 [Malware Information Sharing Platform (MISP)](https://www.misp-project.org/) to share information with other CSIRTs.
 
 ## Process documentation
 The preparation of the incident response process should also contain the documentation for that process. A process
 documentation is important as this document guides the team through the process. The process needs to be tailored to the
-organisation and the departments, which are part of the incident response process.  
+organization and the departments, which are part of the incident response process.  
 A process example can be found [here](../examples/process.md).
 
 ## Governance and Policies
-Governance and policies are the foundation for a well planned incident response process. The policies are defining on a high
+Governance and policies are the foundation for a well-planned incident response process. The policies are defining on a high
 level how this process is built and who is responsible for the different parts. The policies apply corporation wide and
 are most likely binding for all employees. The governance department is defining the polices. In the case of the
 incident response process the policies should define following terms:
@@ -235,7 +235,7 @@ and threats in the IT environments. Those trainings might be internal trainings 
 conferences.
 
 ### External trainings
-External trainings are trainings outside of the organisation where the IT security specialist can learn new technologies
+External trainings are trainings outside of the organization where the IT security specialist can learn new technologies
 or increase his own knowledge in a specific topic. Those trainings are important as new technologies and threats are
 always rising in on the internet. Also, an employee whose responsibility is incident response needs to know which
 threats are important for his work and the company. For example the public cloud topics is something where the incident
@@ -275,8 +275,8 @@ training and they might not take this as seriously as a real incident.
 #### Without CSIRT notification
 The war game without notifying the CSIRT is more close to the reality than the scenario with the notification. Here the
 CSIRT has to handle the incident as it is a real one without help of the team which has started the war game. This
-scenario can give a better view on how the team handles incidents and where optimisation is needed. Furthermore, this
-scenario gives also an indication how fast the CSIRT can response to an incident and how well prepared they are. The
+scenario can give a better view on how the team handles incidents and where optimization is needed. Furthermore, this
+scenario gives also an indication how fast the CSIRT can response to an incident and how well-prepared they are. The
 drawback of this scenario is that the CSIRT is bound to this incident and might not be able to respond to a real
 incident. For this situation a fallback plan has to be implemented in which the management of the CSIRT is informed
 about the war game. If then a real incident happens the CSIRT can shift the priority to the real on and leave the war

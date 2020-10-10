@@ -18,7 +18,6 @@ provider specific logs
 * Diagnostic log
 * Azure monitoring
 * Azure Policy event
-* ...
 
 ### AWS
 * Cognito log

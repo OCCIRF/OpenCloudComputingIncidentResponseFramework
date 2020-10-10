@@ -1,5 +1,5 @@
 # Communication Examples
-These examples can help the incident response team to easily contact customers or colleagues inside the organisation. 
+These examples can help the incident response team to easily contact customers or colleagues inside the organization. 
 
 1. [Internal communication](#internal-communication)
    1. [Affected internal user without direct impact](#affected-internal-user-without-direct-impact)
@@ -46,7 +46,7 @@ These examples can help the incident response team to easily contact customers o
 > data from you were affected. The affected data are:
 > * [affectedData]
 >
-> We want you to know that we take this incident very seriously. Please accept our sincere apology of the breach of
+> We want you to know that we take this incident very serious. Please accept our sincere apology of the breach of
 > trust this issue caused.  
 > Please get in contact with your manager and HR to discuss measures to protect you personal data.
 >
@@ -62,8 +62,8 @@ These examples can help the incident response team to easily contact customers o
 > if your environment is vulnerable to this attack. Our recommended measures to prevent this incident in the future are:
 > * [measures]
 >
-> Thank you for keeping our company safe from security incidents. For more inquireies pleas do not hesitate to contact
-> the CSIRT  at [InternalIncidentCommunication@company.com]
+> Thank you for keeping our company safe from security incidents. For more inquiries please do not hesitate to contact
+> the CSIRT at [InternalIncidentCommunication@company.com]
 >
 > Best regards,
 >
