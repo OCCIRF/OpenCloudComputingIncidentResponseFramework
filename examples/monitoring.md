@@ -2,6 +2,7 @@
 This page provides examples what you can monitor in your cloud environment and what security impact an alert has.
 
 ## Examples
+
 | Monitoring Value  | Description                             | Possible Security Impact           |
 |-------------------|-----------------------------------------|------------------------------------|
 | Budget monitoring | Daily/Monthly costs are higher than X   | Miss-usage of the account          |
