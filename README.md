@@ -56,7 +56,7 @@ The resulting framework is an open-source process framework for incident respons
 * **[dcfSec](https://github.com/dcfSec)** - *Initial work*
 
 See also the list of
-[contributors](https://github.com/masteroflittle/OpenCloudComputingIncidentResponseFramework/contributors) who
+[contributors](https://github.com/OCCIRF/OpenCloudComputingIncidentResponseFramework/contributors) who
 participated in this project.
 
 ## License
